@@ -1,5 +1,5 @@
 // ============================================
-//SolbixSniper TRADING BOT - Complete Implementation
+//Moby TRADING BOT - Complete Implementation
 // with Debug Logging & Professional Messages 
 // ============================================
 import { Telegraf, Markup } from 'telegraf';
@@ -1241,7 +1241,7 @@ async function showMainMenu(ctx, edit = false) {
     : `💼 *Wallet ${session.activeWalletIndex + 1}/${session.wallets.length}*\n\`${shortenAddress(wallet.publicKey)}\`\n💰 ${balance?.toFixed(4) || '?'} SOL ${solPrice ? `($${usdValue.toFixed(2)})` : ''} ${errMsg}`;
 
   const text = `
-🚀 *Welcome to Bullpen Bot* 🤖
+🚀 *Welcome to Moby Bot* 🤖
 
 Bullpen is the easiest way to jump into crypto, find meme coins, and trade on-chain..
 ━━━━━━━━━━━━━━━━━━
